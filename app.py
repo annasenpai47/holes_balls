@@ -12,7 +12,7 @@ pymysql_connect_kwargs = {'host': '127.0.0.1',
                           'database': 'balls_holes'}
 
 app.config['pymysql_kwargs'] = pymysql_connect_kwargs
-app.config['SECRET_KEY'] = '8f42a73054b1749f8f58848be5e6502c'
+app.config['SECRET_KEY'] = '8f42a73054b1749f8f5d8848be5e6502c'
 mysql = MySQL(app)
 
 def find_Max():
